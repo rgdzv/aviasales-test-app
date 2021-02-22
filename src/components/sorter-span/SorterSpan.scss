@@ -1,0 +1,27 @@
+.content__item__sorting {
+
+  &__span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    transition: background .2s linear;
+    cursor: pointer;
+
+    &.active {
+      background: #2196F3;
+      color: #FFFFFF;
+      outline: none;
+    }
+  }
+}

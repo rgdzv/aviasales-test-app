@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    &__sorting {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    &__tickets {
+
+      &__empty {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px 20px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 0.5px;
+        color: #4A4A4A;
+      }
+    }
+  }
+}
+

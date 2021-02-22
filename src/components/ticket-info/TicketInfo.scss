@@ -1,0 +1,47 @@
+.ticket__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__block {
+    width: 30%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+
+      &__info {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        color: #A0B0B9;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+
+      &__time {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        color: #4A4A4A;
+      }
+
+      &__country {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        color: #4A4A4A;
+      }
+    }
+  }
+}
